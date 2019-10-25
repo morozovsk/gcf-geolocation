@@ -1,5 +1,5 @@
 const cors = require('cors')
-const cityTimezones = require('city-timezones');
+//const cityTimezones = require('city-timezones');
 
 // Set `useWhitelist` to `false` if you want to accept all requests.
 const config = {
@@ -41,7 +41,7 @@ function _geolocation(req, res) {
     city: req.headers["x-appengine-city"],
     cityLatLong: req.headers["x-appengine-citylatlong"],
     userIP: req.headers["x-appengine-user-ip"],
-    cityData: cityTimezones.lookupViaCity(req.headers["x-appengine-city"])
+    //cityData: cityTimezones.lookupViaCity(req.headers["x-appengine-city"])
   }
 
   res.json(data)
