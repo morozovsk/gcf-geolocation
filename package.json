@@ -18,8 +18,7 @@
   "author": "Ministry of Programming",
   "homepage": "https://ministryofprogramming.com",
   "dependencies": {
-    "cors": "^2.8.4",
-    "city-timezones": "^1.0.5"
+    "cors": "^2.8.4"
   },
   "license" : "MIT"
 }
